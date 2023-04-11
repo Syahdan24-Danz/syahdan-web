@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  font-family: "montserrat";
+  background-color: #f4f6ff;
+}
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+p{
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 7%;
+    padding-top: 1rem;
+}
+
+.hello {
+  font-family: "roboto condensed";
+  font-weight: 400;
+  letter-spacing: 2.7px;
+  line-height: 1.5;
+}
+.isi {
+  padding: 7% 10%;
+}
+.btn {
+  margin: auto 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #508a8b;
+    margin: 0;
+  }
+
+.button-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#main{
+    text-align: left;
+}
+@media (max-width: 1028px) {
+    #main{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding: 0;
+    }
+    .nav{
+      justify-content: center;
+      padding-left: 0;
+    }
+  }
+  .nav{
+    font-family: "roboto condensed";
+    padding-top: 3%;
+    font-size: 1rem;
+    letter-spacing: 2.7px;
+    padding-left: 9%;
+  }
+
+  .nav-link{
+    color: black;
+  }
+  .nav-link:hover{
+    color: #508a8b;
+  }
+  .pendidikan{
+    padding: 3% 15%;
+  }
+  h5{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  .card-text{
+    text-align: center;
+    padding: 0;
+  }
+.card{
+  height: 100%;
+}
+
+ .about-pendidikan{
+  padding-top: 5%;
+ }
+ .sosmed{
+  justify-content: center;
+  display: flex;
+  margin: 15% auto 0%;
+ }
+.fa-brands{
+  padding: 1rem;
+}
+.fa-brands:hover{
+  color: #1D9BF0;
+}
+.syahdan{
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+
+}
